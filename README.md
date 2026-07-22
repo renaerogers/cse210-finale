@@ -1,10 +1,8 @@
-# cse210-student-template
+# cse210-student-overview 
 This is the repository for the CSE 210 final project 
 
 This repository contains the code for this project. They are arranged as follows:
 
-* `sandbox` - An empty project that you can use to play around with any concepts you like.
-* `csharp-prep` - Starter projects for each of the C# Prep assignments.
-* `prepare` - Starter projects for each of the preparation Learning Activities.
-* `prove` - Starter projects for each of the prove Developer projects.
-* `final` - Starter projects for final project.
+* `csharp` - This project is written using C#.
+* `final` - This project contains all of the files containing the code for the cse210 final project.
+* `design` - This project is a demonstration of the student's learning from this semester. The program is a calculator that can detect what type of problem is being inserted into the program (whether it be addition, subtraction, multiplication, division, exponents or square roots) and then solves the problem. 
