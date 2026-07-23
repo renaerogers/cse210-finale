@@ -6,7 +6,7 @@ public class ChecklistGoal : Goal
     private int _target;
     private int _bonus;
 
-    // Constructor for NEW goals
+    // New goal constructor -rar
     public ChecklistGoal(string name, string description, int points, int target, int bonus) 
         : base(name, description, points)
     {
@@ -15,7 +15,7 @@ public class ChecklistGoal : Goal
         _bonus = bonus;
     }
 
-    // Constructor overload for LOADING from file
+    // File loader for new goals -rar
     public ChecklistGoal(string name, string description, int points, int bonus, int target, int amountCompleted) 
         : base(name, description, points)
     {

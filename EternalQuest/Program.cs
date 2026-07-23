@@ -9,7 +9,7 @@ public class Program
 
         while (running)
         {
-            // Display Level & Score Header
+            // Display Level & Score Header -rar
             int level = (manager.GetScore() / 1000) + 1;
             Console.WriteLine($"\nYou have {manager.GetScore()} points | Level {level}");
             Console.WriteLine("Menu Options:");
